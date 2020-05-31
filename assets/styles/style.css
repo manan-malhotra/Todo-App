@@ -1,0 +1,96 @@
+#container {
+  width: 360px;
+  margin: 100px auto;
+  background-color: #f7f7f7;
+  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+}
+
+body {
+  font-family: 'Roboto';
+  background: #8e9eab;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#eef2f3), to(#8e9eab));
+  background: linear-gradient(to right, #eef2f3, #8e9eab);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+li {
+  height: 40px;
+  line-height: 40px;
+  color: #666;
+  background: #fff;
+  cursor: pointer;
+}
+
+li:nth-child(2n) {
+  background: #f7f7f7;
+}
+
+h1 {
+  color: white;
+  text-transform: uppercase;
+  margin: 0px;
+  font-weight: 400;
+  font-size: 24px;
+  padding: 10px 20px;
+  background-color: #2980b9;
+}
+
+h1 ion-icon {
+  float: right;
+  font-weight: 700;
+  font-size: larger;
+  color: #fff;
+  cursor: pointer;
+}
+
+input {
+  font-size: 18px;
+  background-color: #f7f7f7;
+  width: 100%;
+  font-family: 'Roboto';
+  padding: 13px 13px 13px 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #2980b9;
+  outline: none;
+  border: 3px solid rgba(0, 0, 0, 0);
+}
+
+input:focus {
+  background-color: #fff;
+  border: 3px solid #2980b9;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+span {
+  background-color: #e74c3c;
+  height: 40px;
+  margin-right: 20px;
+  text-align: center;
+  color: #f7f7f7;
+  width: 0px;
+  display: inline-block;
+  -webkit-transition: all linear 0.2s;
+  transition: all linear 0.2s;
+  opacity: 0;
+}
+
+li:hover span {
+  width: 40px;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.checked {
+  color: #b1aeae;
+  text-decoration: line-through;
+}
+/*# sourceMappingURL=style.css.map */
